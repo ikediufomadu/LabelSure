@@ -1,0 +1,9 @@
+filename,brand,type,abv,volume
+01_valid.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+02_wrong_brand.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+03_wrong_abv.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+04_wrong_volume.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+05_wrong_warning_case.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+06_missing_warning.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+07_inconsistent_proof.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
+08_blurry_angled.png,OLD TOM DISTILLERY,Kentucky Straight Bourbon Whiskey,45,750 mL
