@@ -1,0 +1,64 @@
+STRICT VERIFIER TEST PACK
+
+Upload all 8 PNG files and sample_applications.csv in Batch Processing.
+For single-image tests enter: OLD TOM DISTILLERY | Kentucky Straight Bourbon Whiskey | 45 | 750 mL
+
+Expected results below assume PERFECT OCR. Real-image OCR may produce Needs Review when text is not recognized, especially for the small warning.
+
+01_valid.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Match
+
+02_wrong_brand.png
+  Brand: Mismatch
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Match
+
+03_wrong_abv.png
+  Brand: Match
+  Class/type: Match
+  ABV: Mismatch
+  Net contents: Match
+  Government warning: Match
+
+04_wrong_volume.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Mismatch
+  Government warning: Match
+
+05_wrong_warning_case.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Needs Review
+
+06_missing_warning.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Needs Review
+
+07_inconsistent_proof.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Match
+
+08_blurry_angled.png
+  Brand: Match
+  Class/type: Match
+  ABV: Match
+  Net contents: Match
+  Government warning: Match
+
+IMPORTANT: A Match for warning text does NOT verify bold type, placement, size or overall regulatory compliance. Inspect visually.
